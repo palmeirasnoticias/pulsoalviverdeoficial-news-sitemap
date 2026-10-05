@@ -1,0 +1,40 @@
+name: Atualizar mapa do site do Google Notícias
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-sitemap:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Gerar sitemap do Google Notícias
+        run: python generate_news_sitemap.py
+
+      - name: Salvar sitemap atualizado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add news-sitemap.xml
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração no sitemap."
+          else
+            git commit -m "Atualizar mapa do site do Google Notícias"
+            git push
+          fi
