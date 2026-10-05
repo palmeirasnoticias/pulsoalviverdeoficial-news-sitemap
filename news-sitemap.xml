@@ -1,2 +1,36 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" />
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://pulsoalviverdeoficial.blogspot.com/2026/10/endrick-estevao-golden-boy-noticias-do-palmeiras.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso Alviverde</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-05T16:55:21Z</news:publication_date>
+      <news:title>Endrick e Estêvão ganham novo destaque em uma das maiores premiações da Europa (NOTICIAS DO PALMEIRAS)</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://pulsoalviverdeoficial.blogspot.com/2026/10/palmeiras-desfalques-bahia-data-fifa-noticias-do-palmeiras.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso Alviverde</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-05T16:46:36Z</news:publication_date>
+      <news:title>Palmeiras liga alerta antes do Bahia e Abel terá quebra-cabeça inesperado (NOTICIAS DO PALMEIRAS)</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://pulsoalviverdeoficial.blogspot.com/2026/10/leila-pereira-dudu-disputa-judicial-noticias-do-palmeiras.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso Alviverde</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-05T16:39:23Z</news:publication_date>
+      <news:title>Leila Pereira reacende polêmica com Dudu e leva bastidor do Palmeiras de volta aos tribunais (NOTICIAS DO PALMEIRAS)</news:title>
+    </news:news>
+  </url>
+</urlset>
