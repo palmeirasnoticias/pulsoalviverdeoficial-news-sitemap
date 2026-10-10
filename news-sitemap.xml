@@ -1,14 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url>
-    <loc>https://pulsoalviverdeoficial.blogspot.com/2026/10/facundo-tello-palmeiras-fluminense-libertadores-noticias-do-palmeiras.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso Alviverde</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-08T01:01:05Z</news:publication_date>
-      <news:title>Árbitro escolhido para semifinal do Palmeiras tem histórico que chama atenção</news:title>
-    </news:news>
-  </url>
-</urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" />
